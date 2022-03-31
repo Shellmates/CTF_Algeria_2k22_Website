@@ -1,5 +1,5 @@
 {
-  "name": "infosecweek_website",
+  "name": "ctf_algeria_website",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Shellmates/InfoSecWeek_2k22_Website.git"
+    "url": "git+https://github.com/Shellmates/CTF_Algeria_2k22_Website.git"
   },
   "author": "Walid Berrouk",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Shellmates/InfoSecWeek_2k22_Website/issues"
+    "url": "https://github.com/Shellmates/CTF_Algeria_2k22_Website/issues"
   },
-  "homepage": "https://github.com/Shellmates/InfoSecWeek_2k22_Website#readme",
+  "homepage": "https://github.com/Shellmates/CTF_Algeria_2k22_Website#readme",
   "devDependencies": {
     "tailwindcss": "^3.0.23"
   },
