@@ -1,0 +1,27 @@
+{
+  "name": "infosecweek_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch",
+    "start" : "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shellmates/InfoSecWeek_2k22_Website.git"
+  },
+  "author": "Walid Berrouk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shellmates/InfoSecWeek_2k22_Website/issues"
+  },
+  "homepage": "https://github.com/Shellmates/InfoSecWeek_2k22_Website#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "npm-watch": "^0.11.0"
+  }
+}
