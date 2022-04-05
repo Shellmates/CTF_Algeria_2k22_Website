@@ -480,10 +480,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 4rem;
 }
 
-.mt-32 {
-  margin-top: 8rem;
-}
-
 .flex {
   display: flex;
 }
@@ -566,30 +562,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 /* descreption pf the clubs */
 
-.hi {
+.about {
   background-color: #041B33;
   font-family: Open Sans;
 }
 
-.event{
-  text-align: center;
-  color: white;
-  overflow: hidden;
-  width: 600px;
-  position: initial;
-  margin: auto;
-}
-
-.event h1 {
-  font-size: 56px;
-}
-
-.event p{
-  text-align: center;
-  letter-spacing: 1.05px;
-  width: 523px;
-  font-size: 21px;
-  position: inherit;
-  margin-left: 25px;
-}
   

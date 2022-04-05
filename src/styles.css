@@ -5,29 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 /* descreption pf the clubs */
-.hi { 
+.about { 
     background-color: #041B33;
     font-family: Open Sans;
   }
 
-  .event{ 
-    text-align: center;
-    color: white;
-    overflow: hidden;
-    width: 600px;
-    position: initial;
-    margin: auto;
-  }
-  .event h1 { 
-    font-size: 56px;
-  }
-  .event p{ 
-    text-align: center;
-    letter-spacing: 1.05px;
-    margin-left: 490px;
-    width: 523px;
-    font-size: 21px;
-    position: inherit;
-    margin-left: 25px;
-  }
   
