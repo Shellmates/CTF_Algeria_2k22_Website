@@ -490,6 +490,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: initial;
   margin: auto;
 }
+svg{
+  margin: auto;
+}
 
 .clubs h1{
   font-size: 56px;
