@@ -6,30 +6,10 @@
 
 /* descreption pf the clubs */
 .hi { 
-    background-color: black;
-    overflow: hidden;
+    background-color: #041B33;
     font-family: Open Sans;
   }
-  .clubs { 
-    text-align: center;
-    color: white;
-    overflow: hidden;
-    width: 600px;
-    position: initial;
-    margin: auto;
-  }
-  .clubs h1{ 
-    font-size: 56px;
-  }
-  .clubs p{ 
-    text-align: center;
-    letter-spacing: 1.05px;
-    margin-left: 490px;
-    width: 523px;
-    font-size: 21px;
-    position: inherit;
-    margin-left: 25px;
-  }
+
   .event{ 
     text-align: center;
     color: white;
