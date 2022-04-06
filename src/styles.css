@@ -2,20 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/*.event_venu_title {
-     Layout Properties 
-    top-1042.5 left-158.25
-    
-    top: 4170px;
-    left: 633px;
-    width: 655px;
-    height: 122px;
 
-    
-     UI Properties 
-    text-align: left;
-    font: normal normal bold 90px/122px Open Sans;
-    letter-spacing: 7.2px;
-    color: #001D3F;
-    opacity: 1;
-}*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* descreption pf the clubs */
+.about { 
+    background-color: #041B33;
+    font-family: Open Sans;
+  }
+
+  
