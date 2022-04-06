@@ -8,6 +8,23 @@
     <title>CTF_Algeria_2022</title>
   </head>
   <body>
+    <section class="about flex flex-col justify-center text-center px-80 pt-32"> 
+    <div class="flex flex-col justify-center text-center mb-32">
+      <h1 class="font-bold text-white text-6xl mb-8 capitalize"> Description of the clubs </h1>
+      <img src="/public/assets/shellmates.svg" alt="Shellmates Logo" srcset="" class="w-64 self-center">
+      <h1 class="font-medium text-white text-5xl mb-8"> Shellmates </h1>
+      <p class="font-light text-white text-xl tracking-widest capitalize mb-16">/* where the is a shell, there is a way*/</p>
+      <p class="font-light text-white text-2xl mb-8"> Shellmates is a group of students passionate about information security. Our objective is creating an InfoSec community, to motivate and encourage knowledge exchange in this field.</p>
+      <img src="/public/assets/ingeniums.svg" alt="" srcset="" class="w-64 self-center">
+      <h1 class="font-medium text-white text-5xl mb-8"> Ingeniums </h1>
+      <p class="font-light text-white text-xl tracking-widest capitalize mb-16">create you own infinity</p>
+      <p class="font-light text-white text-2xl mb-8"> Ingeniums is a group of students from the Highest Institute of computer science of Sidi Bel Abbès who aspires to create a dynamic environment between students, have enriched exchanges and promote the culture of sharing. And this in an atmosphere of positivity and creativity.</p>
+    </div>
+    <div class="flex flex-col justify-center text-center mb-32"> 
+        <h1 class="font-bold text-white text-6xl mb-16 capitalize"> What is CTF algeria?  </h1>
+        <p class="font-light text-white text-2xl mb-8"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet. Mauris vitae ultricies leo integer malesuada. Ac odio tempor orci dapibus ultrices in. Egestas diam in arcu cursus euismod. Dictum fusce ut placerat orci nulla. Tincidunt ornare massa eget egestas purus tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet. Mauris vitae ultricies leo integer malesuada. Ac odio tempor orci dapibus ultrices in. Egestas diam in arcu cursus euismod. Dictum fusce ut placerat orci nulla. Tincidunt ornare massa eget egestas purus</p>
+    </div>
+  </section>
     <!-- Agenda part -->
     <section
       class="agenda flex flex-col items-center justify-center text-center text-white"
@@ -29,7 +46,7 @@
       >
         <!-- select -->
         <select
-          class="agenda-days mb-12 cursor-pointer appearance-none self-start rounded-[18px] border-[1px] bg-[#001f3f] py-2 pl-10 pr-20 text-3xl"
+          class="agenda-days mb-12 cursor-pointer appearance-none self-start rounded-[18px] border-[1px] bg-[#041b33] py-2 pl-10 pr-20 text-3xl"
         >
           <option value="day1" selected>10.07.2022</option>
           <option value="day2">11.07.2022</option>
@@ -38,11 +55,11 @@
         <!-- end of select -->
         <!-- Days program  -->
         <div class="sessions-agenda flex w-full flex-col">
-          <div class="hidden Day-one flex w-full flex-col">
+          <div class="hidden Day one flex w-full flex-col">
             <div
               class="single-session mb-4 flex w-full flex-row items-center justify-between border-b-2 border-b-white"
             >
-              <div class="agenda-hour">09:30</div>
+              <div class="agenda-hour">01:30</div>
               <div class="agenda-speaker">Name of Speaker</div>
               <div class="agenda-workshop">Workshop of Linux</div>
               <div
@@ -80,11 +97,11 @@
               ></div>
           </div>
           </div>
-          <div class="hidden Day-two flex w-full flex-col">
+          <div class="hidden Day two flex w-full flex-col">
             <div
               class="single-session mb-4 flex w-full flex-row items-center justify-between border-b-2 border-b-white"
             >
-              <div class="agenda-hour">09:30</div>
+              <div class="agenda-hour">02:30</div>
               <div class="agenda-speaker">Name of Speaker</div>
               <div class="agenda-workshop">Workshop of Linux</div>
               <div
@@ -122,11 +139,11 @@
               ></div>
           </div>
           </div>
-          <div class="hidden Day-three flex w-full flex-col">
+          <div class="hidden Day three flex w-full flex-col">
             <div
               class="single-session mb-4 flex w-full flex-row items-center justify-between border-b-2 border-b-white"
             >
-              <div class="agenda-hour">09:30</div>
+              <div class="agenda-hour">02:30</div>
               <div class="agenda-speaker">Name of Speaker</div>
               <div class="agenda-workshop">Workshop of Linux</div>
               <div
@@ -168,6 +185,27 @@
       </div>
     </section>
     <!-- End of Agenda part -->
+    <!-- Sponsors Part -->
+    <section class="sponsors flex flex-col justify-center items-center text-white pb-24 text-center">
+      <h1 class="sponsors-title mb-20 text-6xl font-semibold">
+        Meet our Sponsors
+      </h1>
+      <div class="list-sponsor flex flex-row gap-32 justify-center items-center">
+        <div class="single-sponsor flex flex-col items-center justify-center">
+          <img src="assets/github.png" alt="github" class="mb-8">
+          <p class="text-3xl">Github</p>
+        </div>
+        <div class="single-sponsor flex flex-col items-center justify-center">
+          <img src="assets/github.png" alt="github" class="mb-8">
+          <p class="text-3xl">Github</p>
+        </div>
+        <div class="single-sponsor flex flex-col items-center justify-center">
+          <img src="assets/github.png" alt="github" class="mb-8">
+          <p class="text-3xl">Github</p>
+        </div>
+      </div>
+    </section>
+    <!-- End of sponsors Part -->
     <script src="/scripts/agenda.js"></script>
   </body>
 </html>

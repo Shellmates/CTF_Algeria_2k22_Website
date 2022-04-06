@@ -5,7 +5,11 @@
 @tailwind utilities;
 
 .agenda {
-  background: #001f3f;
+  background: #041b33;
+  font-family: "Open Sans", sans-serif;
+}
+.sponsors {
+  background: #041b33;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -14,4 +18,10 @@
   background-repeat: no-repeat;
   background-position: calc(100% - 30px) center;
   background-size: 20px;
+}
+
+/* descreption pf the clubs */
+.about {
+  background-color: #041b33;
+  font-family: Open Sans;
 }
