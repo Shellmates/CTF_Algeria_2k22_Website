@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="../public/styles.css" rel="stylesheet" />
     <title>CTF_Algeria_2022</title>
+    <link rel="stylesheet" href="icofont/icofont.css">
   </head>
   <body>
     <section class="about flex flex-col justify-center text-center px-80 pt-32"> 
@@ -204,8 +205,53 @@
           <p class="text-3xl">Github</p>
         </div>
       </div>
-    </section>
+    </section> <div class="all">
+        <div class="faq">
+            <h1>FAQ</h1>
+            <div class="qst">
+                <div class="bar">
+                    <input type="text" placeholder="Who's organazing CTF Algeria -sba edition- ?">
+                    <i class="icofont-curved-down" onclick="answer1()"></i>
+                </div>
+                <h3 id="ans1"></h3>
+                <div class="bar">
+                    <input type="text" placeholder="We can register ?">
+                    <i class="icofont-curved-down"  onclick="answer2()"></i>
+                </div>
+                <h3 id="ans2"></h3>
+                <div class="bar">
+                    <input type="text" placeholder="How to reach us ?">
+                    <i class="icofont-curved-down"  onclick="answer3()"></i>
+                </div>
+                <h3 id="ans3"></h3>
+                <span>If you have any further questions email us at <a>shelmates@esi.dz</a> or at <a>ingeniums@esi.sba.dz</a></span>
+            </div>
+            <h1>Contact us</h1>
+            <div class="contact_us ">
+                <div class="email_name">
+                    <input type="text" placeholder="Your name">
+                    <input type="text" placeholder="Your Email">
+                </div>
+                <input type="text" placeholder="Subject">
+                <textarea placeholder="Your message"></textarea>
+                <button>Send</button>
+            </div>
+        </div> 
+        <div class="find_us">
+            <h1>YOU CAN FIND US AT:</h1>
+            <h3 class="adress"><h3>Higher Nationel School of Computer Science</h3><h3>BPM68 16270 , Oued Smar</h3><h3>Algiers, Algeria</h3></h3>
+            <h2>Email : shellmates@esi.dz</h2>
+            <div class="icones">
+                <i class="icofont-facebook"></i>
+                <i class="icofont-instagram"></i>
+                <i class="icofont-twitter"></i>
+                <i class="icofont-linkedin"></i>
+            </div>
+        </div>
+      </div>
     <!-- End of sponsors Part -->
     <script src="/scripts/agenda.js"></script>
+    <script src="/scripts/scripts.js"></script>
+
   </body>
 </html>
