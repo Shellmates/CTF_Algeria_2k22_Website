@@ -468,30 +468,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-.text-blue-600 {
-  --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
-}
-
-.text-yellow-600 {
-  --tw-text-opacity: 1;
-  color: rgb(202 138 4 / var(--tw-text-opacity));
-}
-
-.underline {
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-}
-
 .test {
   font-size: 10px;
 }
+
+.contact_form input{
+  border-color: green;
+  border: 3px solid #003A7E;
+}
+
+/* .form input{
+    border-color: green;
+    border: 20px solid;
+    border: 3px solid #003A7E;
+} */

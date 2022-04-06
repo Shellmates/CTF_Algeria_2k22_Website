@@ -5,3 +5,19 @@
 .test {
     font-size: 10px;
 }
+
+.contact_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_form input{
+    border-color: green;
+    border: 3px solid #003A7E;
+}
+/* .form input{
+    border-color: green;
+    border: 20px solid;
+    border: 3px solid #003A7E;
+} */
