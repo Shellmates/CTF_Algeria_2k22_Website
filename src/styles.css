@@ -20,6 +20,13 @@
   background-size: 20px;
 }
 
+@media (max-width: 768px) {
+  .agenda-days {
+    background-size: 10px;
+    background-position: calc(100% - 15px) center;
+  }
+}
+
 /* descreption pf the clubs */
 .about {
   background-color: #041b33;
