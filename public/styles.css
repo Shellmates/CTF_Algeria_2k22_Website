@@ -477,11 +477,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-transform: uppercase;
 }
 
-.text-blue-600 {
-  --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
-}
-
 .text-yellow-600 {
   --tw-text-opacity: 1;
   color: rgb(202 138 4 / var(--tw-text-opacity));
@@ -492,6 +487,20 @@ Ensure the default browser behavior of the `hidden` attribute.
           text-decoration-line: underline;
 }
 
-.test {
-  font-size: 10px;
-}
+/*.event_venu_title {
+     Layout Properties 
+    top-1042.5 left-158.25
+    
+    top: 4170px;
+    left: 633px;
+    width: 655px;
+    height: 122px;
+
+    
+     UI Properties 
+    text-align: left;
+    font: normal normal bold 90px/122px Open Sans;
+    letter-spacing: 7.2px;
+    color: #001D3F;
+    opacity: 1;
+}*/

@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-.test {
-    font-size: 10px;
-}
+/*.event_venu_title {
+     Layout Properties 
+    top-1042.5 left-158.25
+    
+    top: 4170px;
+    left: 633px;
+    width: 655px;
+    height: 122px;
+
+    
+     UI Properties 
+    text-align: left;
+    font: normal normal bold 90px/122px Open Sans;
+    letter-spacing: 7.2px;
+    color: #001D3F;
+    opacity: 1;
+}*/
