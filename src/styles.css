@@ -4,6 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* descreption pf the clubs */
+.about { 
+    background-color: #041B33;
+    font-family: Open Sans;
+  }
+
+  
 .agenda {
   background: #041b33;
   font-family: "Open Sans", sans-serif;
@@ -33,6 +43,26 @@
   font-family: Open Sans;
 }
 
+
+
+
+
+/*responsive map in the part of : event venu */
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:50%;
+  position:relative;
+  height:0;
+
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
 /*  Hero + nav */
 .Main_section{
   min-height: 100vh;
