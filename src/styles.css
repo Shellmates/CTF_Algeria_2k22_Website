@@ -303,6 +303,7 @@ nav{
   height: 50px;
   margin: 10px;
   opacity: 1;
+  padding: 10px;
 }
 
 #message, #subject {
