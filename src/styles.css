@@ -63,7 +63,7 @@
 /*  Hero + nav */
 .Main_section{
   min-height: 100vh;
-  background: #041b33;
+  background-image: url('../public/assets/bg_pic.png');
  
 }
 nav{

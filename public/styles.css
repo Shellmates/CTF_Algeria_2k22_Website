@@ -845,7 +845,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .Main_section{
   min-height: 100vh;
-  background: #041b33;
+  background-image: url('../public/assets/bg_pic.png');
 }
 
 nav{
@@ -1215,6 +1215,11 @@ input::placeholder, textarea::placeholder{
 }
 
 /* end of footer part */
+
+.hover\:underline:hover{
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
 
 @media (min-width: 768px){
   .md\:h-20{
