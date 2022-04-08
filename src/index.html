@@ -1,13 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="../public/styles.css" rel="stylesheet" />
-    <title>CTF_Algeria_2022</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../public/styles.css" rel="stylesheet">
+    <title>CTF Algeria Website</title>
+</head>
+
+<body>
+
+      <!------ ================= Hero Section ========================-->
+
+      <Section class="Main_section"> 
+        <!--- nav bar ---->
+          <nav>
+            <ul class="nav_list">
+              <li class="nav_elem"><a href="">Home</a></li>
+              <li class="nav_elem"><a href="">About</a></li>
+              <li class="nav_elem"><a href="">Agenda</a></li>
+              <li class="nav_elem"><a href="">Speaker</a></li>
+              <li class="nav_elem"><a href="">FaQ</a></li>
+              <li class="nav_elem"><a href="">Contact</a></li>
+
+            </ul>
+          </nav>
+
+          <div class="Hero">
+            <img src="assets/logo.svg" alt="">
+            <div>
+              <h1 class="Hero_title">Algeria CTF</h1>
+              <h3 class="Hero_subtitle">SBA edition 10-11 July 2022</h3>
+            </div>
+          </div>
+
+          <div class="countdown_container">
+            <h1 class="countdown_title">Time left to register</h1>
+            <div class="countdown">
+             <div class="container-day">
+               <h3 class="day">Time</h3>
+               <h3 class="secondary">Days</h3>
+             </div>
+             <div class="container-hour">
+               <h3 class="hour">Time</h3>
+               <h3 class="secondary">hours</h3>
+             </div>
+             <div class="container-minute">
+               <h3 class="minute">Time</h3>
+               <h3 class="secondary">minutes</h3>
+             </div>
+             <div class="container-second">
+               <h3 class="second">Time</h3>
+               <h3 class="secondary">Seconds</h3>
+             </div>
+           </div>
+          </div>
+          <div class="Hero_btns">
+           <button class="know_more_btn" role="button">Know more</button>
+           <button class="Register_btn" role="button">Register</button>
+          </div>
+          <img class="arrow_down" src="../src/assets/down-arrow.svg" alt="">
+          
+   </Section>
+
+ <!------ ================= Hero Section End ========================-->
+
+<!-- discreption of the clubs -->
     <section class="about flex flex-col justify-center text-center px-80 pt-32"> 
     <div class="flex flex-col justify-center text-center mb-32">
       <h1 class="font-bold text-white text-6xl mb-8 capitalize"> Description of the clubs </h1>
@@ -25,6 +83,25 @@
         <p class="font-light text-white text-2xl mb-8"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet. Mauris vitae ultricies leo integer malesuada. Ac odio tempor orci dapibus ultrices in. Egestas diam in arcu cursus euismod. Dictum fusce ut placerat orci nulla. Tincidunt ornare massa eget egestas purus tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet. Mauris vitae ultricies leo integer malesuada. Ac odio tempor orci dapibus ultrices in. Egestas diam in arcu cursus euismod. Dictum fusce ut placerat orci nulla. Tincidunt ornare massa eget egestas purus</p>
     </div>
   </section>
+
+    <!-- Event Venu-->
+<section class="flex flex-col justify-center items-center text-center w-screen ">
+  <h1 class="text-bluesh text-left font-bold text-6xl pb-45">Event venue</h1>
+  <div class="flex items-center justify-center justify-items-center w-full">
+      <div class="w-2/6 h-1/3 text-center">
+          <img src="assets/esi-sba.svg" alt="esi-sba">
+          <h1 class="text-bluesh text-4xl font-medium w-full pt-10">École supérieure en <br> informatique <br>de Sidi Bel Abbès</h1>
+      </div>
+      <div class="w-1/6"></div>
+      <div class="w-5/12 h-1/3 text-center">
+          <div class="map-responisve"><iframe  class="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.8672780099423!2d-0.6353639853016974!3d35.20977476329164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7f00290df8ed91%3A0x91bd238762e84ce4!2s%C3%89cole%20sup%C3%A9rieure%20en%20informatique%20de%20Sidi%20Bel%20Abb%C3%A8s!5e0!3m2!1sen!2sdz!4v1649288837785!5m2!1sen!2sdz"  height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          <p class="text-2xl pt-10 text-random">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis.</p>
+      </div> 
+  </div> 
+</section>
+<!--the end of the event venue= section-->
+  
+
     <!-- Agenda part -->
     <section
       class="pt-6 agenda flex flex-col items-center justify-center text-center text-white w-screen"
@@ -55,7 +132,7 @@
         <!-- end of select -->
         <!-- Days program  -->
         <div class="sessions-agenda flex w-full flex-col">
-          <div class="hidden Day one flex w-full flex-col">
+          <div class="Day one flex w-full flex-col">
             <div
               class="single-session mb-4 flex w-full flex-row items-center justify-between border-b-2 border-b-white"
             >
@@ -101,7 +178,7 @@
             <div
               class="single-session mb-4 flex w-full flex-row items-center justify-between border-b-2 border-b-white"
             >
-              <div class="agenda-hour">02:30</div>
+              <div class="agenda-hour">22:30</div>
               <div class="agenda-speaker">Name of Speaker</div>
               <div class="agenda-workshop">Workshop of Linux</div>
               <div
@@ -143,7 +220,7 @@
             <div
               class="single-session mb-4 flex w-full flex-row items-center justify-between border-b-2 border-b-white"
             >
-              <div class="agenda-hour">02:30</div>
+              <div class="agenda-hour">33:30</div>
               <div class="agenda-speaker">Name of Speaker</div>
               <div class="agenda-workshop">Workshop of Linux</div>
               <div
@@ -185,6 +262,12 @@
       </div>
     </section>
     <!-- End of Agenda part -->
+
+
+
+
+
+
     <!-- Sponsors Part -->
     <section class="sponsors flex flex-col justify-center items-center text-white pb-24 text-center w-screen">
       <h1 class="sponsors-title mb-32 md:text-6xl text-3xl font-semibold">
@@ -206,51 +289,58 @@
       </div>
     </section>
     <!-- End of sponsors Part -->
-    <script src="/scripts/agenda.js"></script>
+    <script src="../scripts/countdown.js"></script>
+    <script src="../scripts/agenda.js"></script>
 
-    <!-- Cotact us part -->
+    <!-- contact us part  -->
 
-    <div class="contact_form">
-        <div class="title_contact">
-            <div class="image_contact"></div>
-            <!-- <img src="" alt=""> -->
-            <h1>Contact Us</h1>
-        </div>
-        <form action="/" method="POST" >
-            <div class="name_and_email">
-                <input type="text" name="name"  placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>    
-            </div>
-            
-            <input type="text" name="subject" id="subject" placeholder="Subject">
-            <input type="text" name="message" id="message" placeholder="Message" required>
-            <input type="submit" value="send" class="sbmit_butn">
-        </form>
-    </div>
-
-    <!-- End of Contact us part -->
-
-    <!-- footer part -->
-
-    <div class="footer">
-      <h1>YOU CAN FIND US AT:</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing
-         elit. Animi adipisci sint explicabo exercitationem 
-         officiis tenetur? Ex velit, </p>
-
-      <h3>EMAIL: <a href="mailto:shellmates@esi.dz">shellmates@esi.dz</a></h3>
-      <div class="media_accounts">
-        <a href="https://www.facebook.com/shellmates"><img src="/public/assets/facebook_icon.png" alt="facebook icon"></a>
-        <a href="https://www.instagram.com/shellmates"><img src="/public/assets/instagram_icon.png" alt="istagram icon"></a>
-        <a href="https://twitter.com/shellmates"><img src="/public/assets/twitter_icon.png" alt="twitter icon"></a>
-        <a href=""><img src="/public/assets/linkedin_icon.png" alt="linkedin icon"></a>
-        <a href=""><img src="/public/assets/discorde_icon.png" alt="discorde icon"></a>
+    <body>
+      <div class="contact_form">
+          <div class="title_contact">
+              <div class="image_contact"></div>
+              <!-- <img src="" alt=""> -->
+              <h1>Contact Us</h1>
+          </div>
+          <form action="/" method="POST" >
+              <div class="name_and_email">
+                  <input type="text" name="name"  placeholder="Your Name" required>
+                  <input type="email" name="email" placeholder="Your Email" required>    
+              </div>
+              
+              <input type="text" name="subject" id="subject" placeholder="Subject">
+              <!-- <input type="text" name="message" id="message" placeholder="Message"  required> -->
+              <div class="messages">
+                <!-- <textarea name="subject" id="subject" cols="30" rows="1" placeholder="Subject"></textarea> -->
+              <textarea name="message" id="message" cols="30" rows="5" placeholder="Message"  required></textarea>
+              </div>
+              
+              <input type="submit" value="send" class="sbmit_butn">
+          </form>
       </div>
-        
+  <!-- END of Contact us -->
+
+  <!-- Footer part -->
+  <div class="footer">
+    <h1>YOU CAN FIND US AT:</h1>
+    <p>Higher National School Of 
+    Computer Science BPM68 16270, Oued Smar Algiers, Algeria</p>
+
+    <h3>Email: <a href="mailto:shellmates@esi.dz">shellmates@esi.dz</a></h3>
+
+    <div class="media_accounts">
+      <a href="https://www.facebook.com/shellmates" target="_blank"><img src="/public/assets/facebook_icon.png" alt="facebook icon"></a>
+      <a href="https://www.instagram.com/shellmates" target="_blank"><img src="/public/assets/instagram_icon.png" alt="instagram icon"></a>
+      <a href="https://www.twitter.com/shellmates" target="_blank"><img src="/public/assets/twitter_icon.png" alt="twitter icon"></a>
+      <a href="" target="_blank" ><img src="/public/assets/linkedin_icon.png" alt="linkedin icon"></a>
+      <a href="" target="_blank"><img src="/public/assets/discorde_icon.png" alt="discorde icon"></a>
     </div>
+  </div>
+
+  <!-- END of Footer part -->
 
 
 
 
   </body>
 </html>
+
