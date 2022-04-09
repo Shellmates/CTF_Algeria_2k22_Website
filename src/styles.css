@@ -409,3 +409,48 @@ input::placeholder, textarea::placeholder{
 
 /* end of footer part */
 
+
+
+/* Event's content */
+
+.container_img{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  row-gap: 20px;
+}
+
+.container_img img{
+  height: 500px;
+  width: 380px;
+  border-radius: 10px;
+}
+.W_C_title{
+  padding-bottom: 40px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: left;
+}
+.container{
+  display: grid;
+  grid-template-columns: 41% 41%;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+.long_text{
+  grid-row-start: 1;
+  grid-row-end: 6;
+  grid-column: 2;
+  width: 100%;
+  background-color: rgba(156, 163, 175, 0.2);
+}
+.logo_img{
+  width: 40%;
+}
+.time_text{
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+/* end of the event's content */
